@@ -1,0 +1,60 @@
+body {font-family: Arial;}
+
+/* стиль для меню навигации*/
+nav.mainmenu{
+    float: left; /*вывод у левого края, врезка*/
+    width: 150px; /* ширина элементов врезки*/
+    margin: 10px 30px 10px 0px; /* величина внешних просветов верх право низ лево*/
+    padding: 10px; /* внутренние отступы*/
+    border: black medium double; /* черная средней толщины двойная*/
+    border-radius: 10px; /* скругление*/
+}
+
+nav div {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.menufooter{
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight:bold;
+}
+
+h1 {
+    font-family: Verdana;
+    font-size: 32pt;
+}
+
+/* селектор тэга p: размер шрифта (важный аттрибут) и выравнивание текста */
+p {font-size: 14pt !important;}
+p.greeting {font-size: 24pt;}
+
+/* составной селекто, размер картинки 47 %*/
+
+.picture img {width: 47%;}
+
+em.namebar {font-weight: normal;}
+.advertising {margin-left: 30pt;}
+
+.advertising div {
+    margin-top: 5pt;
+    margin-bottom: 5pt;
+}
+
+footer em.ordertable {
+    font-size: 20px;
+    font-family: Arial;
+}
+
+footer div.ordertable {text-align: left;}
+
+header {text-align: center;}
+main {text-align: justify;}
+footer {text-align: right;}
+
+li .bigger {
+    font-size: 16pt;
+}
